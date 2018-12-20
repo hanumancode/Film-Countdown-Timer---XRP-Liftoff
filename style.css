@@ -90,5 +90,16 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    animation: animateCountdown 1s linear infinite;
+    animation: animateCountdown 10s linear infinite;
+}
+
+@keyframes animateCountdown {
+
+    0%,10% {
+        opacity: 1;
+    }
+
+    10.01%,100% {
+        opacity: 0;
+    }
 }
