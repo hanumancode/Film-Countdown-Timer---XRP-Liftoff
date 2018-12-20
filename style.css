@@ -90,5 +90,5 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    animation: animateNumber 1s linear infinite;
+    animation: animateCountdown 1s linear infinite;
 }
