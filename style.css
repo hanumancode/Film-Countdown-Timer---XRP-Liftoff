@@ -51,3 +51,23 @@ body {
     width: 600px;
     height: 600px;
 }
+
+.arm {
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 50%;
+    height: 4px;
+    width: 1200px;
+    background: #000;
+    animation: animate 1s linear infinite;
+    transform-origin: left;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
