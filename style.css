@@ -46,3 +46,8 @@ body {
     border-radius: 50%;
 
 }
+
+.circle.circle2 {
+    width: 600px;
+    height: 600px;
+}
